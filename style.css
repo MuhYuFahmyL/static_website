@@ -1,0 +1,296 @@
+html, body {   
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.webHeader {
+   display: flex;
+   justify-content: space-between;
+   background-color: #333;
+   height: 15vh;
+   width: 100%;
+   align-items: center;
+   position: fixed;
+}
+
+.logoContainer {
+   display: flex;
+   justify-content: space-around;
+   height: 100%;
+   align-items: center;
+   padding-left: 1vw;
+}
+
+.logo {
+   height: 100%;
+}
+
+.judul {
+   color: white;
+}
+
+.link {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   border-radius: 5vw;
+   width: 10vw;
+   text-align: center;
+   border: 0.2vw solid #c9c8c3;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.2vw;
+}
+
+.link:hover {
+   color: #333;
+   text-decoration: none;
+   border-radius: 5vw;
+   width: 12vw;
+   background: rgb(247, 166, 16);
+   text-align: center;
+   border: 0.2vw solid rgb(250, 203, 48);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.4vw;
+   font-weight: bold;
+   transition: width 0.15s;
+   box-shadow: 0.3vw  0.3vw #000;
+}
+
+.navigasi {
+   display: flex;
+   justify-content: space-around;
+   width: 40vw;
+   height: 100%;
+   align-items: center;
+   padding-right: 1vw;
+}
+
+.utama {
+   height: 60vh;
+   padding: 20vh 10vw;
+   background-color: #3d3d3d;
+}
+
+#judulUtama {
+   margin: 0;
+   color: rgb(245, 196, 37);
+}
+
+footer {
+   background-color: #000;
+   display: flex;
+   justify-content: space-between;
+   height: 10vw;
+   width: 100%;
+   align-items: center;
+}
+
+h2 {
+   margin: 0;
+}
+
+#floatingButton {
+   position: fixed;
+   bottom: 2vw;
+   right: 2vw;
+   background-color: rgb(247, 166, 16);
+   border: none;
+   text-align: center;
+   border-radius: 50%;
+   font-size: 2.5vw;
+   width: 3vw;
+   height: 3vw;
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+}
+
+.borderTop{
+   border-top:0.3vw solid #000;
+}
+
+.iconContact{
+   width: 2vw;
+}
+
+#floatingButton:active {
+   color: #000;
+   background-color: rgb(184, 124, 12);
+   cursor: pointer;
+}
+
+.profPict{
+   width: 30vw;
+   float: left;
+   display: flex; 
+   cursor: pointer;
+}
+
+blockquote:hover {
+  color: yellow;
+  transition: all 0.8s ease-in;
+  cursor: pointer;
+}
+
+.quote {
+  background-color: #6e6e6e;
+  border-radius: 2vw;
+  color: #fff;
+  margin-top: 10%;
+  margin-left: 30%;
+  width: 50%;
+  padding: 2vw;
+  text-align: center;
+  font-size: 2vw;
+  box-shadow: 0.3vw  0.3vw #000;
+}
+
+.name {
+  background-color: rgb(247, 166, 16);
+  border-radius: 0.8vw;
+  width: 20vw;
+  text-align: center;
+  color: #fff;
+  margin-top: 5%;
+  margin-left: -30%;
+  font-size: 2vw;
+  float: left;
+  font-family: 'Timmana';
+  box-shadow: 0.3vw  0.3vw #000;
+}
+
+.subname {
+  background-color: #333;
+  border-radius: 0.8vw;
+  width: 20vw;
+  text-align: center;
+  color: #fff;
+  margin-top: 8%;
+  margin-left: -28%;
+  font-size: 2vw;
+  float: left;
+  font-family: 'Timmana';
+  box-shadow: 0.3vw  0.3vw #000;
+}
+
+/* Reset */
+blockquote {
+  font-family: 'Timmana';
+  padding: 0;
+  margin: 0;
+}
+
+
+#arrow {
+  border-color: transparent transparent transparent #6e6e6e;
+  border-image: none;
+  border-style: solid;
+  border-width: 2vw;
+  float: left;
+  left: 25%;
+  content: " ";
+  display: flex;
+}
+
+.containerThanks{
+   border-left: 0.1vw solid #fff; 
+   color: #fff; 
+   width: 50%; 
+   height: 100%; 
+   text-align: center; 
+   justify-content: center;
+}
+
+.containerContacts{
+   background: #000; 
+   width: 50%; 
+   height: 100%;
+   border-right: 0.1vw solid #fff; 
+}
+
+.thankYou{
+   display: flex;
+   height: 100%;
+   align-items: center;
+   justify-content: space-around; 
+   padding-left: 13vw; 
+   padding-right: 13vw;
+}
+
+.centeredContent{
+   display: flex;
+   height: 50%;
+   align-items: center;
+   color: white;
+   font-family: 'Timmana';
+   font-size: 2vw;
+   padding-left: 2vw;
+}
+
+.centeredContentIcon{
+   display: flex;
+   height: 50%;
+   padding-left: 12vw;
+   padding-right: 12vw;
+   align-items: center;
+   color: white;
+   justify-content: space-around;
+}
+
+.fontArial{
+   font-family: arial;
+   font-size: 5vw;
+   align-items: center;
+}
+
+.contentAboutMe{
+   background-color: #6e6e6e; 
+   width: 100%; 
+   height: 80%; 
+   border-radius: 2vw;
+}
+
+h1{
+   font-family: 'Timmana';
+   color: white;
+   padding-left: 1vw;
+   font-size: 3vw;
+}
+
+p{
+   font-family: 'Timmana';
+   color: white;
+   text-align: justify;
+   padding: 1vw;
+   font-size: 1.5vw;
+}
+
+.highlight{
+   color: #000;
+   background-color: rgb(247, 166, 16);
+}
+
+.fontArialBold{
+   font-family: arial;
+   /*font-weight: bold;*/  
+   font-size: 5vw;
+   align-items: center;
+}
+
+.textYou{
+   border-radius: 1vw;
+   color: #000;
+   background-color: rgb(247, 166, 16);
+}
+
+@media only screen and (orientation: portrait) {
+   .webHeader {
+     /*background-color: lightblue;*/
+     /*height: 300px;*/
+   }
+ }
